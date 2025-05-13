@@ -1,12 +1,11 @@
 ﻿using Bilbasen.Enums;
 using Bilbasen.Models;
-using Newtonsoft.Json;
 
 namespace Bilbasen
 {
     public class Program
     {
-        private List<Car> cars;
+        private List<Car> cars = new List<Car>();
 
         static void Main(string[] args)
         {
@@ -17,9 +16,9 @@ namespace Bilbasen
 
         private void Run()
         {
-            cars = GetCars().OrderBy(car => car.ToString()).ToList();
+            cars.AddRange(Data.GetCars().OrderBy(car => car.ToString()).ToList());
 
-            ConsoleKey selectedKey = ConsoleKey.Backspace;
+            ConsoleKey? selectedKey = null;
 
             while (true)
             {
@@ -32,7 +31,7 @@ namespace Bilbasen
                     case ConsoleKey.D3:
                     case ConsoleKey.D4:
                     case ConsoleKey.D5:
-                        ShowCars(selectedKey);
+                        ShowCars(selectedKey.Value);
 
                         Console.WriteLine("\nBACKSPACE - Tilbage");
 
@@ -40,11 +39,10 @@ namespace Bilbasen
 
                         if (consoleKey == ConsoleKey.Backspace)
                         {
-                            selectedKey = ConsoleKey.Backspace;
+                            selectedKey = null;
                         }
 
                         break;
-                    case ConsoleKey.Backspace:
                     default:
                         Console.WriteLine(@"1 - Udskriv alle biler som deler mærke med den første bil i jeres datasæt.
 2 - Udskriv alle biler som har over 200HK.
@@ -110,20 +108,6 @@ namespace Bilbasen
 
                     break;
             }
-        }
-
-        private List<Car> GetCars()
-        {
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../", "cars.json");
-
-            if (!File.Exists(path))
-            {
-                File.Create(path).Close();
-            }
-
-            string text = File.ReadAllText(path);
-
-            return JsonConvert.DeserializeObject<List<Car>>(text) ?? new List<Car>();
         }
     }
 }

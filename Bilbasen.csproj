@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="JSON\benzin_diesel_cars.json" />
+    <None Remove="JSON\electric_cars.json" />
+    <None Remove="JSON\motorcycles.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JSON\benzin_diesel_cars.json" />
+    <Content Include="JSON\electric_cars.json" />
+    <Content Include="JSON\motorcycles.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

@@ -2,30 +2,24 @@
 
 namespace Bilbasen.Models
 {
-    public class Car
+    public abstract class Car : Vehicle, ICar
     {
+        private decimal _price;
+        public decimal Price { get => _price; set => _price = value; }
 
-        public string Model { get; set; }
-        public string Manufacturer { get; set; }
-        public Colors Color { get; set; }
-        public FuelType FuelType { get; set; }
-        public int Year { get; set; }
-        public int HorsePower { get; set; }
-        public bool IsManual { get; set; }
-
-        public Car(string model, string manufacturer, Colors color, FuelType fuelType, int year, bool isManual)
+        public Car(string model, string manufacturer, decimal price, int year, int horsePower, Colors color, string licensePlate, int numberOfWheels, double mileage)
+            : base(model, manufacturer, year, horsePower, color, licensePlate, numberOfWheels, mileage)
         {
-            Model = model;
-            Manufacturer = manufacturer;
-            Color = color;
-            FuelType = fuelType;
-            Year = year;
-            IsManual = isManual;
+            _price = price;
         }
+
+        public abstract void StartEngine();
+
+        public abstract void StopEngine();
 
         public override string ToString()
         {
-            return $"{Manufacturer} {Model} ({Year}) - {Color} - {FuelType} - {(IsManual ? "Manual" : "Automatic")}";
+            return $"{Manufacturer} {Model} ({Year}) - {HorsePower} HP - {Color} - {LicensePlate} - {Price:C}";
         }
     }
 }

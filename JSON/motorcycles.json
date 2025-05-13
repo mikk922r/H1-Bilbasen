@@ -1,0 +1,122 @@
+[
+	{
+		"Model": "Panigale V4",
+		"Manufacturer": "Ducati",
+		"Year": 2023,
+		"HorsePower": 214,
+		"Color": 0,
+		"LicensePlate": "MC12345",
+		"NumberOfWheels": 2,
+		"Mileage": 5500.0,
+		"Price": 29999.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "Ninja ZX-10R",
+		"Manufacturer": "Kawasaki",
+		"Year": 2022,
+		"HorsePower": 203,
+		"Color": 1,
+		"LicensePlate": "MC67890",
+		"NumberOfWheels": 2,
+		"Mileage": 8200.0,
+		"Price": 17799.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "R1",
+		"Manufacturer": "Yamaha",
+		"Year": 2023,
+		"HorsePower": 198,
+		"Color": 2,
+		"LicensePlate": "MC24680",
+		"NumberOfWheels": 2,
+		"Mileage": 4200.0,
+		"Price": 18999.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "GSX-R1000",
+		"Manufacturer": "Suzuki",
+		"Year": 2022,
+		"HorsePower": 188,
+		"Color": 3,
+		"LicensePlate": "MC13579",
+		"NumberOfWheels": 2,
+		"Mileage": 9800.0,
+		"Price": 16499.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "CBR1000RR-R Fireblade SP",
+		"Manufacturer": "Honda",
+		"Year": 2023,
+		"HorsePower": 217,
+		"Color": 0,
+		"LicensePlate": "MC11223",
+		"NumberOfWheels": 2,
+		"Mileage": 3500.0,
+		"Price": 28500.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "S 1000 RR",
+		"Manufacturer": "BMW",
+		"Year": 2023,
+		"HorsePower": 205,
+		"Color": 1,
+		"LicensePlate": "MC44556",
+		"NumberOfWheels": 2,
+		"Mileage": 6200.0,
+		"Price": 22450.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "Ural Tourist",
+		"Manufacturer": "IMZ-Ural",
+		"Year": 2022,
+		"HorsePower": 41,
+		"Color": 2,
+		"LicensePlate": "MC77889",
+		"NumberOfWheels": 3,
+		"Mileage": 12500.0,
+		"Price": 18990.0,
+		"HasSidecar": true
+	},
+	{
+		"Model": "Street Triple RS",
+		"Manufacturer": "Triumph",
+		"Year": 2023,
+		"HorsePower": 123,
+		"Color": 3,
+		"LicensePlate": "MC99001",
+		"NumberOfWheels": 2,
+		"Mileage": 7800.0,
+		"Price": 12950.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "1290 Super Duke R",
+		"Manufacturer": "KTM",
+		"Year": 2022,
+		"HorsePower": 180,
+		"Color": 0,
+		"LicensePlate": "MC22334",
+		"NumberOfWheels": 2,
+		"Mileage": 8600.0,
+		"Price": 19999.0,
+		"HasSidecar": false
+	},
+	{
+		"Model": "Multistrada V4",
+		"Manufacturer": "Ducati",
+		"Year": 2023,
+		"HorsePower": 170,
+		"Color": 1,
+		"LicensePlate": "MC55667",
+		"NumberOfWheels": 2,
+		"Mileage": 5200.0,
+		"Price": 25950.0,
+		"HasSidecar": false
+	}
+]
