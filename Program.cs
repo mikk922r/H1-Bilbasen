@@ -1,0 +1,129 @@
+﻿using Bilbasen.Enums;
+using Bilbasen.Models;
+using Newtonsoft.Json;
+
+namespace Bilbasen
+{
+    public class Program
+    {
+        private List<Car> cars;
+
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+
+            program.Run();
+        }
+
+        private void Run()
+        {
+            cars = GetCars().OrderBy(car => car.ToString()).ToList();
+
+            ConsoleKey selectedKey = ConsoleKey.Backspace;
+
+            while (true)
+            {
+                Console.Clear();
+
+                switch (selectedKey)
+                {
+                    case ConsoleKey.D1:
+                    case ConsoleKey.D2:
+                    case ConsoleKey.D3:
+                    case ConsoleKey.D4:
+                    case ConsoleKey.D5:
+                        ShowCars(selectedKey);
+
+                        Console.WriteLine("\nBACKSPACE - Tilbage");
+
+                        ConsoleKey consoleKey = Console.ReadKey(true).Key;
+
+                        if (consoleKey == ConsoleKey.Backspace)
+                        {
+                            selectedKey = ConsoleKey.Backspace;
+                        }
+
+                        break;
+                    case ConsoleKey.Backspace:
+                    default:
+                        Console.WriteLine(@"1 - Udskriv alle biler som deler mærke med den første bil i jeres datasæt.
+2 - Udskriv alle biler som har over 200HK.
+3 - Udskriv alle røde biler.
+4 - Udskriv antallet af biler som har samme mærke som den første bil
+5 - Udskriv alle biler som er mellem årgang 1980 og 1999");
+
+                        selectedKey = Console.ReadKey(true).Key;
+
+                        break;
+                }
+            }
+        }
+
+        private void ShowCars(ConsoleKey selectedKey)
+        {
+            Car? firstCar = cars.FirstOrDefault();
+
+            switch (selectedKey)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("Alle biler som deler mærke med den første bil i jeres datasæt:");
+
+                    foreach (Car car in cars.Where(car => car.Manufacturer == firstCar?.Manufacturer))
+                    {
+                        Console.WriteLine($"- {car.ToString()}");
+                    }
+
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine("Alle biler som har over 200HK:");
+
+                    foreach (Car car in cars.Where(car => car.HorsePower > 200))
+                    {
+                        Console.WriteLine($"- {car.ToString()}");
+                    }
+
+                    break;
+                case ConsoleKey.D3:
+                    Console.WriteLine("Alle røde biler:");
+
+                    foreach (Car car in cars.Where(car => car.Color == Colors.Red))
+                    {
+                        Console.WriteLine($"- {car.ToString()}");
+                    }
+
+                    break;
+                case ConsoleKey.D4:
+                    Console.WriteLine("Antallet af biler som har samme mærke som den første bil:");
+
+                    int count = cars.Count(car => car.Manufacturer == firstCar?.Manufacturer);
+
+                    Console.WriteLine($"- {count}");
+
+                    break;
+                case ConsoleKey.D5:
+                    Console.WriteLine("Alle biler som er mellem årgang 1980 og 1999:");
+
+                    foreach (Car car in cars.Where(car => car.Year >= 1980 && car.Year <= 1999))
+                    {
+                        Console.WriteLine($"- {car.ToString()}");
+                    }
+
+                    break;
+            }
+        }
+
+        private List<Car> GetCars()
+        {
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../../", "cars.json");
+
+            if (!File.Exists(path))
+            {
+                File.Create(path).Close();
+            }
+
+            string text = File.ReadAllText(path);
+
+            return JsonConvert.DeserializeObject<List<Car>>(text) ?? new List<Car>();
+        }
+    }
+}

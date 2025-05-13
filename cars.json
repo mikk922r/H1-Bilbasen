@@ -1,0 +1,902 @@
+[
+  {
+    "Model": "Mustang",
+    "Manufacturer": "Ford",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 1967,
+    "HorsePower": 271,
+    "IsManual": true
+  },
+  {
+    "Model": "Civic",
+    "Manufacturer": "Honda",
+    "Color": 1,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 158,
+    "IsManual": false
+  },
+  {
+    "Model": "Model S",
+    "Manufacturer": "Tesla",
+    "Color": 5,
+    "FuelType": 3,
+    "Year": 2023,
+    "HorsePower": 1020,
+    "IsManual": false
+  },
+  {
+    "Model": "911 Carrera",
+    "Manufacturer": "Porsche",
+    "Color": 0,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 379,
+    "IsManual": true
+  },
+  {
+    "Model": "Corvette",
+    "Manufacturer": "Chevrolet",
+    "Color": 8,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 495,
+    "IsManual": false
+  },
+  {
+    "Model": "Camry",
+    "Manufacturer": "Toyota",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2019,
+    "HorsePower": 203,
+    "IsManual": false
+  },
+  {
+    "Model": "Beetle",
+    "Manufacturer": "Volkswagen",
+    "Color": 7,
+    "FuelType": 1,
+    "Year": 1965,
+    "HorsePower": 40,
+    "IsManual": true
+  },
+  {
+    "Model": "Charger",
+    "Manufacturer": "Dodge",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 1970,
+    "HorsePower": 425,
+    "IsManual": true
+  },
+  {
+    "Model": "Range Rover",
+    "Manufacturer": "Land Rover",
+    "Color": 9,
+    "FuelType": 2,
+    "Year": 2022,
+    "HorsePower": 395,
+    "IsManual": false
+  },
+  {
+    "Model": "Accord",
+    "Manufacturer": "Honda",
+    "Color": 1,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 212,
+    "IsManual": false
+  },
+  {
+    "Model": "Explorer",
+    "Manufacturer": "Ford",
+    "Color": 6,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 318,
+    "IsManual": false
+  },
+  {
+    "Model": "Wrangler",
+    "Manufacturer": "Jeep",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2018,
+    "HorsePower": 285,
+    "IsManual": true
+  },
+  {
+    "Model": "Cherokee",
+    "Manufacturer": "Jeep",
+    "Color": 3,
+    "FuelType": 2,
+    "Year": 2022,
+    "HorsePower": 270,
+    "IsManual": false
+  },
+  {
+    "Model": "Prius",
+    "Manufacturer": "Toyota",
+    "Color": 1,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 121,
+    "IsManual": false
+  },
+  {
+    "Model": "Escalade",
+    "Manufacturer": "Cadillac",
+    "Color": 10,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 420,
+    "IsManual": false
+  },
+  {
+    "Model": "Model 3",
+    "Manufacturer": "Tesla",
+    "Color": 2,
+    "FuelType": 3,
+    "Year": 2023,
+    "HorsePower": 283,
+    "IsManual": false
+  },
+  {
+    "Model": "CX-5",
+    "Manufacturer": "Mazda",
+    "Color": 5,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 187,
+    "IsManual": false
+  },
+  {
+    "Model": "Outback",
+    "Manufacturer": "Subaru",
+    "Color": 6,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 182,
+    "IsManual": false
+  },
+  {
+    "Model": "Impreza",
+    "Manufacturer": "Subaru",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2019,
+    "HorsePower": 152,
+    "IsManual": true
+  },
+  {
+    "Model": "RX 350",
+    "Manufacturer": "Lexus",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 295,
+    "IsManual": false
+  },
+  {
+    "Model": "Silverado",
+    "Manufacturer": "Chevrolet",
+    "Color": 0,
+    "FuelType": 2,
+    "Year": 2020,
+    "HorsePower": 355,
+    "IsManual": false
+  },
+  {
+    "Model": "F-150",
+    "Manufacturer": "Ford",
+    "Color": 8,
+    "FuelType": 2,
+    "Year": 2022,
+    "HorsePower": 400,
+    "IsManual": false
+  },
+  {
+    "Model": "Tacoma",
+    "Manufacturer": "Toyota",
+    "Color": 6,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 278,
+    "IsManual": true
+  },
+  {
+    "Model": "Miata",
+    "Manufacturer": "Mazda",
+    "Color": 5,
+    "FuelType": 1,
+    "Year": 1999,
+    "HorsePower": 140,
+    "IsManual": true
+  },
+  {
+    "Model": "Defender",
+    "Manufacturer": "Land Rover",
+    "Color": 3,
+    "FuelType": 2,
+    "Year": 2021,
+    "HorsePower": 296,
+    "IsManual": false
+  },
+  {
+    "Model": "G-Class",
+    "Manufacturer": "Mercedes-Benz",
+    "Color": 1,
+    "FuelType": 2,
+    "Year": 2022,
+    "HorsePower": 416,
+    "IsManual": false
+  },
+  {
+    "Model": "Grand Cherokee",
+    "Manufacturer": "Jeep",
+    "Color": 9,
+    "FuelType": 4,
+    "Year": 2023,
+    "HorsePower": 375,
+    "IsManual": false
+  },
+  {
+    "Model": "Challenger",
+    "Manufacturer": "Dodge",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2019,
+    "HorsePower": 717,
+    "IsManual": true
+  },
+  {
+    "Model": "Panamera",
+    "Manufacturer": "Porsche",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2023,
+    "HorsePower": 552,
+    "IsManual": false
+  },
+  {
+    "Model": "A4",
+    "Manufacturer": "Audi",
+    "Color": 2,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 261,
+    "IsManual": false
+  },
+  {
+    "Model": "Q5",
+    "Manufacturer": "Audi",
+    "Color": 0,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 362,
+    "IsManual": false
+  },
+  {
+    "Model": "X5",
+    "Manufacturer": "BMW",
+    "Color": 3,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 389,
+    "IsManual": false
+  },
+  {
+    "Model": "E-Class",
+    "Manufacturer": "Mercedes-Benz",
+    "Color": 1,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 255,
+    "IsManual": false
+  },
+  {
+    "Model": "S-Class",
+    "Manufacturer": "Mercedes-Benz",
+    "Color": 10,
+    "FuelType": 4,
+    "Year": 2023,
+    "HorsePower": 429,
+    "IsManual": false
+  },
+  {
+    "Model": "Golf",
+    "Manufacturer": "Volkswagen",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 147,
+    "IsManual": true
+  },
+  {
+    "Model": "Tiguan",
+    "Manufacturer": "Volkswagen",
+    "Color": 5,
+    "FuelType": 2,
+    "Year": 2021,
+    "HorsePower": 184,
+    "IsManual": false
+  },
+  {
+    "Model": "Palisade",
+    "Manufacturer": "Hyundai",
+    "Color": 6,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 291,
+    "IsManual": false
+  },
+  {
+    "Model": "Sonata",
+    "Manufacturer": "Hyundai",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 192,
+    "IsManual": false
+  },
+  {
+    "Model": "Elantra",
+    "Manufacturer": "Hyundai",
+    "Color": 7,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 147,
+    "IsManual": false
+  },
+  {
+    "Model": "Santa Fe",
+    "Manufacturer": "Hyundai",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 281,
+    "IsManual": false
+  },
+  {
+    "Model": "Optima",
+    "Manufacturer": "Kia",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 192,
+    "IsManual": false
+  },
+  {
+    "Model": "Stinger",
+    "Manufacturer": "Kia",
+    "Color": 1,
+    "FuelType": 1,
+    "Year": 2023,
+    "HorsePower": 368,
+    "IsManual": true
+  },
+  {
+    "Model": "Soul",
+    "Manufacturer": "Kia",
+    "Color": 7,
+    "FuelType": 3,
+    "Year": 2022,
+    "HorsePower": 201,
+    "IsManual": false
+  },
+  {
+    "Model": "Sportage",
+    "Manufacturer": "Kia",
+    "Color": 2,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 187,
+    "IsManual": false
+  },
+  {
+    "Model": "C-Class",
+    "Manufacturer": "Mercedes-Benz",
+    "Color": 0,
+    "FuelType": 4,
+    "Year": 2023,
+    "HorsePower": 255,
+    "IsManual": false
+  },
+  {
+    "Model": "GLC",
+    "Manufacturer": "Mercedes-Benz",
+    "Color": 3,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 315,
+    "IsManual": false
+  },
+  {
+    "Model": "X3",
+    "Manufacturer": "BMW",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 382,
+    "IsManual": false
+  },
+  {
+    "Model": "X7",
+    "Manufacturer": "BMW",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 523,
+    "IsManual": false
+  },
+  {
+    "Model": "i3",
+    "Manufacturer": "BMW",
+    "Color": 9,
+    "FuelType": 3,
+    "Year": 2020,
+    "HorsePower": 170,
+    "IsManual": false
+  },
+  {
+    "Model": "Focus",
+    "Manufacturer": "Ford",
+    "Color": 7,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 123,
+    "IsManual": true
+  },
+  {
+    "Model": "Fusion",
+    "Manufacturer": "Ford",
+    "Color": 4,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 181,
+    "IsManual": false
+  },
+  {
+    "Model": "Rav4",
+    "Manufacturer": "Toyota",
+    "Color": 6,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 219,
+    "IsManual": false
+  },
+  {
+    "Model": "Highlander",
+    "Manufacturer": "Toyota",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 243,
+    "IsManual": false
+  },
+  {
+    "Model": "Corolla",
+    "Manufacturer": "Toyota",
+    "Color": 5,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 169,
+    "IsManual": true
+  },
+  {
+    "Model": "Supra",
+    "Manufacturer": "Toyota",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 382,
+    "IsManual": true
+  },
+  {
+    "Model": "Sienna",
+    "Manufacturer": "Toyota",
+    "Color": 1,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 245,
+    "IsManual": false
+  },
+  {
+    "Model": "Sentra",
+    "Manufacturer": "Nissan",
+    "Color": 5,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 149,
+    "IsManual": true
+  },
+  {
+    "Model": "Altima",
+    "Manufacturer": "Nissan",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 236,
+    "IsManual": false
+  },
+  {
+    "Model": "Maxima",
+    "Manufacturer": "Nissan",
+    "Color": 0,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 300,
+    "IsManual": false
+  },
+  {
+    "Model": "Leaf",
+    "Manufacturer": "Nissan",
+    "Color": 3,
+    "FuelType": 3,
+    "Year": 2021,
+    "HorsePower": 214,
+    "IsManual": false
+  },
+  {
+    "Model": "Pathfinder",
+    "Manufacturer": "Nissan",
+    "Color": 6,
+    "FuelType": 4,
+    "Year": 2023,
+    "HorsePower": 284,
+    "IsManual": false
+  },
+  {
+    "Model": "Murano",
+    "Manufacturer": "Nissan",
+    "Color": 8,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 260,
+    "IsManual": false
+  },
+  {
+    "Model": "CX-9",
+    "Manufacturer": "Mazda",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 250,
+    "IsManual": false
+  },
+  {
+    "Model": "Mazda3",
+    "Manufacturer": "Mazda",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 186,
+    "IsManual": true
+  },
+  {
+    "Model": "Mazda6",
+    "Manufacturer": "Mazda",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 250,
+    "IsManual": false
+  },
+  {
+    "Model": "A6",
+    "Manufacturer": "Audi",
+    "Color": 2,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 335,
+    "IsManual": false
+  },
+  {
+    "Model": "Q7",
+    "Manufacturer": "Audi",
+    "Color": 3,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 500,
+    "IsManual": false
+  },
+  {
+    "Model": "Cayenne",
+    "Manufacturer": "Porsche",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 335,
+    "IsManual": false
+  },
+  {
+    "Model": "Macan",
+    "Manufacturer": "Porsche",
+    "Color": 4,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 261,
+    "IsManual": false
+  },
+  {
+    "Model": "Enclave",
+    "Manufacturer": "Buick",
+    "Color": 1,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 310,
+    "IsManual": false
+  },
+  {
+    "Model": "Regal",
+    "Manufacturer": "Buick",
+    "Color": 0,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 250,
+    "IsManual": false
+  },
+  {
+    "Model": "Trailblazer",
+    "Manufacturer": "Chevrolet",
+    "Color": 6,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 155,
+    "IsManual": false
+  },
+  {
+    "Model": "Equinox",
+    "Manufacturer": "Chevrolet",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 170,
+    "IsManual": false
+  },
+  {
+    "Model": "Impala",
+    "Manufacturer": "Chevrolet",
+    "Color": 2,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 305,
+    "IsManual": false
+  },
+  {
+    "Model": "Avalanche",
+    "Manufacturer": "Chevrolet",
+    "Color": 5,
+    "FuelType": 2,
+    "Year": 2013,
+    "HorsePower": 320,
+    "IsManual": false
+  },
+  {
+    "Model": "Bolt EV",
+    "Manufacturer": "Chevrolet",
+    "Color": 9,
+    "FuelType": 3,
+    "Year": 2021,
+    "HorsePower": 200,
+    "IsManual": false
+  },
+  {
+    "Model": "Tahoe",
+    "Manufacturer": "Chevrolet",
+    "Color": 0,
+    "FuelType": 2,
+    "Year": 2021,
+    "HorsePower": 420,
+    "IsManual": false
+  },
+  {
+    "Model": "Camaro",
+    "Manufacturer": "Chevrolet",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 455,
+    "IsManual": true
+  },
+  {
+    "Model": "Viper",
+    "Manufacturer": "Dodge",
+    "Color": 3,
+    "FuelType": 1,
+    "Year": 2017,
+    "HorsePower": 645,
+    "IsManual": true
+  },
+  {
+    "Model": "Durango",
+    "Manufacturer": "Dodge",
+    "Color": 6,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 475,
+    "IsManual": false
+  },
+  {
+    "Model": "Ram 1500",
+    "Manufacturer": "Dodge",
+    "Color": 2,
+    "FuelType": 2,
+    "Year": 2021,
+    "HorsePower": 395,
+    "IsManual": false
+  },
+  {
+    "Model": "Pacifica",
+    "Manufacturer": "Chrysler",
+    "Color": 1,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 287,
+    "IsManual": false
+  },
+  {
+    "Model": "300C",
+    "Manufacturer": "Chrysler",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2023,
+    "HorsePower": 363,
+    "IsManual": false
+  },
+  {
+    "Model": "Town & Country",
+    "Manufacturer": "Chrysler",
+    "Color": 3,
+    "FuelType": 4,
+    "Year": 2016,
+    "HorsePower": 283,
+    "IsManual": false
+  },
+  {
+    "Model": "CT5",
+    "Manufacturer": "Cadillac",
+    "Color": 0,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 237,
+    "IsManual": false
+  },
+  {
+    "Model": "XT6",
+    "Manufacturer": "Cadillac",
+    "Color": 5,
+    "FuelType": 4,
+    "Year": 2020,
+    "HorsePower": 310,
+    "IsManual": false
+  },
+  {
+    "Model": "Escalade ESV",
+    "Manufacturer": "Cadillac",
+    "Color": 10,
+    "FuelType": 2,
+    "Year": 2023,
+    "HorsePower": 420,
+    "IsManual": false
+  },
+  {
+    "Model": "XF",
+    "Manufacturer": "Jaguar",
+    "Color": 1,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 296,
+    "IsManual": false
+  },
+  {
+    "Model": "F-Type",
+    "Manufacturer": "Jaguar",
+    "Color": 2,
+    "FuelType": 1,
+    "Year": 2023,
+    "HorsePower": 575,
+    "IsManual": true
+  },
+  {
+    "Model": "I-PACE",
+    "Manufacturer": "Jaguar",
+    "Color": 9,
+    "FuelType": 3,
+    "Year": 2021,
+    "HorsePower": 394,
+    "IsManual": false
+  },
+  {
+    "Model": "XC90",
+    "Manufacturer": "Volvo",
+    "Color": 6,
+    "FuelType": 4,
+    "Year": 2022,
+    "HorsePower": 455,
+    "IsManual": false
+  },
+  {
+    "Model": "S60",
+    "Manufacturer": "Volvo",
+    "Color": 3,
+    "FuelType": 4,
+    "Year": 2021,
+    "HorsePower": 316,
+    "IsManual": false
+  },
+  {
+    "Model": "V90",
+    "Manufacturer": "Volvo",
+    "Color": 0,
+    "FuelType": 2,
+    "Year": 2020,
+    "HorsePower": 250,
+    "IsManual": false
+  },
+  {
+    "Model": "Huracan",
+    "Manufacturer": "Lamborghini",
+    "Color": 4,
+    "FuelType": 1,
+    "Year": 2023,
+    "HorsePower": 631,
+    "IsManual": true
+  },
+  {
+    "Model": "Urus",
+    "Manufacturer": "Lamborghini",
+    "Color": 10,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 641,
+    "IsManual": false
+  },
+  {
+    "Model": "Aventador",
+    "Manufacturer": "Lamborghini",
+    "Color": 8,
+    "FuelType": 1,
+    "Year": 2021,
+    "HorsePower": 769,
+    "IsManual": true
+  },
+  {
+    "Model": "DBX",
+    "Manufacturer": "Aston Martin",
+    "Color": 2,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 542,
+    "IsManual": false
+  },
+  {
+    "Model": "DB11",
+    "Manufacturer": "Aston Martin",
+    "Color": 7,
+    "FuelType": 1,
+    "Year": 2023,
+    "HorsePower": 528,
+    "IsManual": true
+  },
+  {
+    "Model": "Vantage",
+    "Manufacturer": "Aston Martin",
+    "Color": 5,
+    "FuelType": 1,
+    "Year": 2022,
+    "HorsePower": 503,
+    "IsManual": true
+  },
+  {
+    "Model": "Phantom",
+    "Manufacturer": "Rolls-Royce",
+    "Color": 1,
+    "FuelType": 1,
+    "Year": 2020,
+    "HorsePower": 563,
+    "IsManual": false
+  }
+]
