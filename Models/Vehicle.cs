@@ -13,7 +13,7 @@ namespace Bilbasen.Models
         private int _year;
         public int Year { get => _year; set => _year = value; }
 
-        public int _horsePower;
+        private int _horsePower;
         public int HorsePower { get => _horsePower; set => _horsePower = value; }
 
         private Colors _color;
