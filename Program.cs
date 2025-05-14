@@ -64,49 +64,73 @@ namespace Bilbasen
             switch (selectedKey)
             {
                 case ConsoleKey.D1:
-                    Console.WriteLine("Alle biler som deler mærke med den første bil i jeres datasæt:");
-
-                    foreach (Car car in cars.Where(car => car.Manufacturer == firstCar?.Manufacturer))
-                    {
-                        Console.WriteLine($"- {car.ToString()}");
-                    }
+                    DisplayCarsByFirstCarManufacturer(firstCar);
 
                     break;
                 case ConsoleKey.D2:
-                    Console.WriteLine("Alle biler som har over 200HK:");
-
-                    foreach (Car car in cars.Where(car => car.HorsePower > 200))
-                    {
-                        Console.WriteLine($"- {car.ToString()}");
-                    }
+                    DisplayCarsWithHorsePowerOver200();
 
                     break;
                 case ConsoleKey.D3:
-                    Console.WriteLine("Alle røde biler:");
-
-                    foreach (Car car in cars.Where(car => car.Color == Colors.Red))
-                    {
-                        Console.WriteLine($"- {car.ToString()}");
-                    }
+                    DisplayRedCars();
 
                     break;
                 case ConsoleKey.D4:
-                    Console.WriteLine("Antallet af biler som har samme mærke som den første bil:");
-
-                    int count = cars.Count(car => car.Manufacturer == firstCar?.Manufacturer);
-
-                    Console.WriteLine($"- {count}");
+                    DisplayCarCountByFirstCarManufacturer(firstCar);
 
                     break;
                 case ConsoleKey.D5:
-                    Console.WriteLine("Alle biler som er mellem årgang 1980 og 1999:");
-
-                    foreach (Car car in cars.Where(car => car.Year >= 1980 && car.Year <= 1999))
-                    {
-                        Console.WriteLine($"- {car.ToString()}");
-                    }
+                    DisplayCarsFrom1980To1999();
 
                     break;
+            }
+        }
+
+        private void DisplayCarsByFirstCarManufacturer(Car? firstCar)
+        {
+            Console.WriteLine("Alle biler som deler mærke med den første bil i jeres datasæt:");
+
+            foreach (Car car in cars.Where(car => car.Manufacturer == firstCar?.Manufacturer))
+            {
+                Console.WriteLine($"- {car.ToString()}");
+            }
+        }
+        private void DisplayCarsWithHorsePowerOver200()
+        {
+            Console.WriteLine("Alle biler som har over 200HK:");
+
+            foreach (Car car in cars.Where(car => car.HorsePower > 200))
+            {
+                Console.WriteLine($"- {car.ToString()}");
+            }
+        }
+
+        private void DisplayRedCars()
+        {
+            Console.WriteLine("Alle røde biler:");
+
+            foreach (Car car in cars.Where(car => car.Color == Colors.Red))
+            {
+                Console.WriteLine($"- {car.ToString()}");
+            }
+        }
+
+        private void DisplayCarCountByFirstCarManufacturer(Car? firstCar)
+        {
+            Console.WriteLine("Antallet af biler som har samme mærke som den første bil:");
+
+            int count = cars.Count(car => car.Manufacturer == firstCar?.Manufacturer);
+
+            Console.WriteLine($"- {count}");
+        }
+
+        private void DisplayCarsFrom1980To1999()
+        {
+            Console.WriteLine("Alle biler som er mellem årgang 1980 og 1999:");
+
+            foreach (Car car in cars.Where(car => car.Year >= 1980 && car.Year <= 1999))
+            {
+                Console.WriteLine($"- {car.ToString()}");
             }
         }
     }
